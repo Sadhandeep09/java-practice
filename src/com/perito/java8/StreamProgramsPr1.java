@@ -65,7 +65,7 @@ public class StreamProgramsPr1 {
 				.collect(Collectors.toList());
 
 		System.out.println(res2.stream().map(std4 -> std4.getName()).collect(Collectors.toList()));
-		System.out.println("---------------------------");
+		System.out.println("-------------6--------------");
 
 		// Create a List<Student> from the List<TempStudent>
 		TempStudent tmpStud1 = new TempStudent("Jayesh1", 201, new Address("12341"),
@@ -101,7 +101,7 @@ public class StreamProgramsPr1 {
 		// Convert List<students> to String
 		System.out.println(students.stream().map(Student::getName).collect(Collectors.joining(",,")));
 		System.out.println(students.stream().map(Student::getAge).collect(Collectors.toList()));
-		System.out.println("-----------------------------");
+		System.out.println("----------------7687-------------");
 		// Change the case of List<String>
 		List<String> nameList = Arrays.asList("Jayesh", "Dany", "Khyati", "Hello", "Mango");
 		nameList.stream().map(String::toUpperCase).collect(Collectors.toList()).forEach(System.out::println);

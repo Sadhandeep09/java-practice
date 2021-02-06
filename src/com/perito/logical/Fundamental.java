@@ -108,8 +108,8 @@ public class Fundamental {
 		// System.out.println(getFourPerLine(13));
 		// System.out.println(createStarPattern(4));
 		// System.out.println(NumberPattern4(5));
-		// System.out.println(checkPrime(7));
-		System.out.println(checkPalindrome(141));
+		 System.out.println(checkPrime(7));
+		//System.out.println(checkPalindrome(141));
 
 	}
 
